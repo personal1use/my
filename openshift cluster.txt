@@ -1,0 +1,36 @@
+as a prerequiste
+
+aws account and redhat account to be register
+
+https://medium.com/kubelancer-private-limited/quick-and-simplified-red-hat-openshift-cluster-4-3-install-on-aws-6f49c6b2d734
+
+https://cloud.redhat.com/openshift/install
+
+aws cli
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+
+ssh-keygen -t rsa -b 4096 -N ‘’ -f ~/.ssh/id_rsa
+eval `ssh-agent -s`
+eval “$(ssh-agent -s)”
+ssh-add ~/.ssh/id_rsa
+
+aws configure
+
+curl -O https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-install-linux.tar.gz
+
+tar -xvzf openshift-install-linux.tar.gz
+
+cp -rf openshift-install /usr/local/bin/openshift-install ; chmod +x /usr/local/bin/openshift-install
+ 
+curl -O https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-client-linux.tar.gz
+
+tar -xvzf openshift-client-linux.tar.gz
+
+cp -rf oc /usr/local/bin/oc ; chmod +x /usr/local/bin/oc ; cp -rf kubectl /usr/local/bin/kubectl; chmod +x /usr/local/bin/kubectl
+
+mkdir ./oscdir
+
+openshift-install create cluster --dir=./oscdir
+openshift-install destroy cluster --dir=./oscdir
