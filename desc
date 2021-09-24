@@ -1,0 +1,24 @@
+Description
+Define a Roadmap to establish the level of DevSecOps Maturity through the COE.
+Plan and implement target maturity levels for DevOps
+Design the architecture for the DevSecOps pipeline for R1 and target maturity.
+Define and document the DevSecOps processes
+Align DevSecOps with the bi-modal (Agile/Waterfall) Delivery Methodology
+Define and document the key drivers, principles, and standards that are required for DevSecOps.
+Document and Integrate to organizational standards, processes, and tooling. (release management, change management, testing)
+Integrate DevSecOps practice with SARB security standards and processes
+Identify and define business KPI’s/metrics/alerts for all the phases of the DevSecOps pipeline.
+Assess the existing DevSecOps tools available and determine the toolchain required to complete the stack for the Continuous Integration/Continuous Delivery platform. 
+Define and document the DevSecOps reference architecture Commission and configure the toolchain for the DevSecOps practice
+Install, configure and integrate the DevSecOps pipeline with existing SARB tools (provisioning)
+Define and Implement technology KPI’s/SLA metrics/alerts and relevant telemetry
+Align and document of DevSecOps application stack tiering as per SARB standards required
+Design and implement fit for use Dashboards required for the DevSecOps pipeline
+Implement increased automation and optimization across the DevSecOps pipeline
+Define and document the COE Support structure to sustain the DevSecOps practice
+Provide support during and post-implementation for toolchain and processes
+Define and document the governance and roles required to operate and sustain the DevSecOps pipeline
+Define and document the DevSecOps RACII Matrix with stakeholder analysis.
+Define and document the change management with new processes.
+Resource and operate the DevSecOps environment for the duration of implementation.
+Knowledge transfer to internal SARB tech staff to ensure continuity. 
